@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4639
+
+Automatically tracks time spent in Vim by file and project.
+View your logged time at https://wakati.me
+
+Installation instructions and current source code available on github:
+https://github.com/wakatime/vim-wakatime
