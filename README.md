@@ -1,35 +1,32 @@
-vim-wakatime 0.1.2
-===========
+vim-wakatime
+============
 
-Automatic time tracking.
+Fully automatic time tracking for Vim.
+
 
 Installation
 ------------
 
-1) Get an api key from:
+Heads Up! WakaTime depends on [Python](http://www.python.org/getit/) being installed to work correctly.
 
-https://wakati.me
+1. Get an api key from: https://wakati.me
 
-2) Using [Vundle](https://github.com/gmarik/vundle), the Vim plugin manager:
+2. Using [Vundle](https://github.com/gmarik/vundle), the Vim plugin manager:
 
-Add `Bundle 'wakatime/vim-wakatime'` to your `~/.vimrc`
+  a) Add `Bundle 'wakatime/vim-wakatime'` to your `~/.vimrc`.
 
-3) Run these shell commands:
+  b) Then inside Vim, type `:BundleInstall`.
 
-    touch ~/.wakatime.log
-    echo "api_key=MY_API_KEY" > ~/.wakatime
-    vim +BundleInstall +qall
+3. You will see a prompt at the bottom asking for your [api key](https://www.wakati.me/#apikey). Enter your api key, then press `enter`.
 
-4) Use Vim and your time will automatically be tracked for you.
+4. Use Vim and your time will automatically be tracked for you.
 
-Visit https://wakati.me to view your time spent in each file.
+5. Visit https://wakati.me to see your logged time.
+
+6. Consider installing [BIND9](https://help.ubuntu.com/community/BIND9ServerHowto#Caching_Server_configuration) to cache your repeated DNS requests: `sudo apt-get install bind9`
+
 
 Screen Shots
 ------------
 
-![Project Overview](https://www.wakati.me/static/img/ScreenShots/Screenshot%20from%202013-06-26%2001:12:59.png)
-
-![Files in a Project](https://www.wakati.me/static/img/ScreenShots/Screenshot%20from%202013-06-26%2001:13:13.png)
-
-![Changing Date Range](https://www.wakati.me/static/img/ScreenShots/Screenshot%20from%202013-06-26%2001:13:53.png)
-
+![Project Overview](https://www.wakati.me/static/img/ScreenShots/Screen Shot 2013-10-26 at 5.04.01 PM.png)
